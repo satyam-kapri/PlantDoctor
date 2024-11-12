@@ -1,0 +1,153 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width:-webkit-fill-available;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.magicbody{
+  position: absolute;
+  right: -312px;
+  width: 1400px;
+  height: 1000px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    color: #31511E;
+
+      background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M853.5 641Q837 782 701 826.5T453.5 822q-111.5-49-261-102.5T83 514.5Q123 363 214.5 264t215-81q123.5 18 282 12.5T870 345q0 155-16.5 296Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%2311211e%22 d=%22M853.5 641Q837 782 701 826.5T453.5 822q-111.5-49-261-102.5T83 514.5Q123 363 214.5 264t215-81q123.5 18 282 12.5T870 345q0 155-16.5 296Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    
+    
+    
+}
+.plant{
+  transform: rotateY(180deg);
+  width: 300px;
+  position: absolute;
+  height: auto;
+  right: 22%;
+  bottom: 38%;
+  display:none;
+}
+.plantdoctor{
+  width: 500px;
+  position: absolute;
+  left: 33%;
+  bottom: 39%;
+}
+.floatingtxt1{
+  border-radius: 10px;
+    width: max-content;
+    background: #cee9e1;
+    color: #157600;
+    padding: 0.8em 1.5em;
+    position: absolute;
+    left: 35%;
+    bottom: 49%;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgb(0 0 0) 0px 22px 70px 4px;
+}
+.floatingtxt2{
+  border-radius: 10px;
+  width: max-content;
+  background: #cee9e1;
+  color: #157600;
+  padding: 0.8em 1.5em;
+  position: absolute;
+  left: 53%;
+  bottom: 66%;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgb(0 0 0) 0px 22px 70px 4px;
+}
+.landing-text{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   margin-top: 16%;
+position: relative;
+}
+
+/* From Uiverse.io by mi-series */ 
+.button-33 {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #40B3A2;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button-33:hover {
+  opacity: .95;
+}
+
+.button-33 .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+.grad-text{
+  background: -webkit-linear-gradient(45deg, #84f7d1, #29c470);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
